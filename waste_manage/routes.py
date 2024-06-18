@@ -1,13 +1,19 @@
 import os
 import secrets
 from PIL import Image
-from flask import render_template, url_for, flash, redirect, request, abort
+from flask import Blueprint, render_template, url_for, flash, redirect, request, abort
 from waste_manage import app, db, bcrypt, mail
 from waste_manage.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
                              PostForm, RequestResetForm, ResetPasswordForm)
 from waste_manage.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
+
+# Create a blueprint instead of importing app directly
+bp = Blueprint('main', __name__)
+
+# Import app after creating blueprint to avoid circular import
+from waste_manage import app
 
 @app.route("/")
 @app.route("/home")
