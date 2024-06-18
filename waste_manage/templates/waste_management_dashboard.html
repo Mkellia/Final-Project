@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+    <h1>Waste Management Dashboard</h1>
+    <p>Welcome, {{ current_user.username }}! You are logged in as a waste management user.</p>
+    <nav>
+      <div class="navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="btn btn-outline-info mb-2" href="{{ url_for('district_posts', district_name='gasabo') }}">Gasabo</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-info mb-2" href="{{ url_for('district_posts', district_name='nyarugenge') }}">Nyarugenge</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-info mb-2" href="{{ url_for('district_posts', district_name='kicukiro') }}">Kicukiro</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+{% endblock content %}
+

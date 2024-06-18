@@ -1,0 +1,104 @@
+body {
+  background-color: #fafafa;
+  color: #d1d1d1;
+  margin-top: 5rem;
+  background-image: url('../static/profile_pics/background.jpg'); 
+  background-size: cover;
+  background-position: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: #d1d1d1;
+}
+
+.bg-steel {
+  background: rgba(0, 0, 0, 0.250); 
+  backdrop-filter: blur(8px);
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500;
+}
+
+.content-section {
+  background: rgba(0, 0, 0, 0.250);  /* Semi-transparent white background */
+  padding: 10px 20px;
+  border: 0.5px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  backdrop-filter: blur(8px); /* Adds a blur effect */
+}
+
+.article-title {
+  color: #b1b1b1;
+}
+
+a.article-title:hover {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.article-content {
+  white-space: pre-line;
+}
+
+.article-img {
+  height: 65px;
+  width: 65px;
+  margin-right: 16px;
+}
+
+.article-metadata {
+  padding-bottom: 1px;
+  margin-bottom: 4px;
+  border-bottom: 1px solid #e3e3e3;
+  background: rgb(255, 255, 255); 
+}
+
+.article-metadata a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.article-svg {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.account-img {
+  height: 125px;
+  width: 125px;
+  margin-right: 20px;
+  margin-bottom: 16px;
+}
+
+.account-heading {
+  font-size: 2.5rem;
+}
+
+.card {
+  border-bottom: 1px solid #e3e3e3;
+  background: rgba(0, 0, 0, 0.250); 
+  border-radius: 10px;
+}
+
+.mr-2{
+  border-bottom: 1px solid #ffffff;
+  background: rgb(255, 255, 255); 
+}
+
+.text-muted{
+  background: rgb(255, 255, 255);
+}
+
+
+

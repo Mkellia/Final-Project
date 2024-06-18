@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+    <h1>About Us</h1>
+    <p>Welcome to our platform, where we strive to make waste management more efficient and sustainable for households and communities. Our mission is to provide a seamless experience for waste collection and recycling.</p>
+
+    <h2>Our Mission</h2>
+    <p>We aim to:
+        <ul>
+            <li>Improve waste management practices in communities.</li>
+            <li>Promote recycling and sustainable practices.</li>
+            <li>Facilitate efficient waste collection services.</li>
+        </ul>
+    </p>
+
+    <h2>Meet the Team</h2>
+    <div class="team-section">
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='profile_pics/member1.jpg') }}" alt="Member 1" class="rounded-circle" width="150">
+            <h3>John Doe</h3>
+            <p>CEO & Founder</p>
+            <p>John is passionate about environmental sustainability and has over 10 years of experience in the waste management industry.</p>
+        </div>
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='profile_pics/member2.jpg') }}" alt="Member 2" class="rounded-circle" width="150">
+            <h3>Jane Smith</h3>
+            <p>Chief Operations Officer</p>
+            <p>Jane ensures our operations run smoothly and efficiently, with a focus on customer satisfaction and service quality.</p>
+        </div>
+        <div class="team-member">
+            <img src="{{ url_for('static', filename='profile_pics/member3.jpg') }}" alt="Member 3" class="rounded-circle" width="150">
+            <h3>Emily Johnson</h3>
+            <p>Head of Marketing</p>
+            <p>Emily leads our marketing efforts, helping to spread awareness about our services and the importance of recycling.</p>
+        </div>
+    </div>
+
+    <h2>Contact Us</h2>
+    <p>We'd love to hear from you! If you have any questions, suggestions, or feedback, please reach out to us:</p>
+    <ul>
+        <li>Email: info@wastemanagement.com</li>
+        <li>Phone: (123) 456-7890</li>
+        <li>Address: 123 Green St, Eco City, EC 12345</li>
+    </ul>
+</div>
+{% endblock content %}

@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section">
+    <h1>Welcome to Our Waste Management Platform</h1>
+    <p>Our platform is dedicated to improving waste management practices within communities. We offer comprehensive services for households and waste management professionals to ensure efficient and sustainable waste disposal.</p>
+
+    <h2>Our Services</h2>
+    <p>We provide a range of services designed to help you manage waste more effectively:</p>
+    <ul>
+        <li>Scheduled waste collection</li>
+        <li>Recycling and waste sorting guidance</li>
+        <li>Real-time tracking of waste collection services</li>
+        <li>Community awareness programs on sustainable waste management</li>
+    </ul>
+
+    <h2>Why Choose Us?</h2>
+    <p>By choosing our platform, you benefit from:</p>
+    <ul>
+        <li>Reliable and timely waste collection</li>
+        <li>Easy-to-use booking and scheduling system</li>
+        <li>Commitment to environmental sustainability</li>
+        <li>Expert support and customer service</li>
+    </ul>
+
+    <h2>Get Involved</h2>
+    <p>Join us in making a positive impact on the environment. Whether you are a household looking to improve your waste disposal practices or a professional in the waste management industry, our platform provides the tools and resources you need to succeed.</p>
+
+    <!-- Links to Dashboards -->
+    <div class="mt-4">
+        <a class="btn btn-primary mb-2" href="{{ url_for('waste_management_dashboard') }}">Waste Management Dashboard</a>
+        <a class="btn btn-primary mb-2" href="{{ url_for('household_dashboard') }}">Household Dashboard</a>
+    </div>
+</div>
+{% endblock content %}
