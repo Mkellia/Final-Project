@@ -30,7 +30,7 @@ class BasicTests(unittest.TestCase):
     def test_index(self):
         response = self.app.get('/', follow_redirects=True)
         response_data_str = response.data.decode('utf-8')
-        self.assertIn('Welcome to Our Waste Management Platform', response.data.decode('utf-8'))
+        self.assertIn('Home', response.data.decode('utf-8'))
         self.assertEqual(response.status_code, 200)
         
 

@@ -1,4 +1,4 @@
-# flaskblog/models.py
+# waste_manage/models.py
 
 from datetime import datetime
 from itsdangerous import TimedSerializer as Serializer
