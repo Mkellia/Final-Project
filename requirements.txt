@@ -1,10 +1,19 @@
+# Core Flask Dependencies
 Flask==2.0.1
 Flask-SQLAlchemy==2.5.1
 Flask-Login==0.5.0
 Flask-WTF==0.14.3
 Flask-Migrate==3.0.1
+
+# Database and ORM
 SQLAlchemy==1.4.22
-itsdangerous==2.0.1
+
+# Templating and Routing
 Jinja2==3.0.1
 Werkzeug==2.0.1
-python-dotenv==0.17.1
+
+# Additional Libraries
+email-validator  # Example of a library not related to Flask but used in the project
+PIL              # This should be Pillow for Python Imaging Library
+bcrypt           # For password hashing
+

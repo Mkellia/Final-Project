@@ -1,13 +1,13 @@
 body {
   background-color: #fafafa;
-  color: #d1d1d1;
+  color: #242424;
   margin-top: 5rem;
   background-image: url('../static/profile_pics/background.jpg'); 
   background-size: cover;
   background-position: center;
 }
 h1, h2, h3, h4, h5, h6 {
-  color: #d1d1d1;
+  color: #242424;
 }
 
 .bg-steel {
@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #cbd5db;
+  color: #242424;
 }
 
 .site-header .navbar-nav .nav-link:hover {
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .article-title {
-  color: #b1b1b1;
+  color: #242424;
 }
 
 a.article-title:hover {
@@ -59,12 +59,15 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3;
-  background: rgb(255, 255, 255); 
+  background: rgba(255, 255, 255, 0); 
+}
+
+.mr-2{
+  background: rgba(255, 255, 255, 0); 
 }
 
 .article-metadata a:hover {
-  color: #ffffff;
+  color: #ffffff52;
   text-decoration: none;
 }
 
@@ -97,7 +100,12 @@ a.article-title:hover {
 }
 
 .text-muted{
-  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0);
+}
+
+.list-group-item{
+  background: rgba(255, 255, 255, 0);
+  color: #000000
 }
 
 

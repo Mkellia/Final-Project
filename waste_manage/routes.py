@@ -182,6 +182,8 @@ from flask import render_template
 def district_posts(district_name):
     page = request.args.get('page', 1, type=int)
     posts = Post.query.filter_by(district=district_name).order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)
+    print(posts)  # Print pagination object
+    print(posts.items)
     return render_template('district_posts.html', posts=posts, district_name=district_name)
 
 
