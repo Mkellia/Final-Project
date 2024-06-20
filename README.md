@@ -22,9 +22,6 @@ cd Final-Project
 
     cd frontend
 
-#### \* Run tailwind to see the styles
-
-    npm run dev or npm dev
 
 ### 4. Access Backend
 
