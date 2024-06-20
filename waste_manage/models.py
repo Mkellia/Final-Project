@@ -16,7 +16,7 @@ class User(db.Model, UserMixin):
     image_file = db.Column(db.String(20), nullable=False, default='default.jpg')
     password = db.Column(db.String(60), nullable=False)
     posts = db.relationship('Post', backref='author', lazy=True)
-    role = db.Column(db.String(20), nullable=False, default='user')  # Ensure this line is correctly defined
+    role = db.Column(db.String(20), nullable=False, default='user')  # Default role is 'user'
 
     def get_reset_token(self, expires_sec=1800):
         s = Serializer(app.config['SECRET_KEY'], expires_sec)
@@ -34,8 +34,6 @@ class User(db.Model, UserMixin):
     def __repr__(self):
         return f"User('{self.username}', '{self.email}', '{self.image_file}', '{self.role}')"
 
-from waste_manage import db
-
 class Post(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     title = db.Column(db.String(100), nullable=False)
@@ -46,7 +44,6 @@ class Post(db.Model):
     time = db.Column(db.String(100), nullable=False)
     date = db.Column(db.String(100), nullable=False)
     district = db.Column(db.String(100), nullable=False)
-      
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"

@@ -8,12 +8,52 @@ from waste_manage.forms import (RegistrationForm, LoginForm, UpdateAccountForm,
 from waste_manage.models import User, Post
 from flask_login import login_user, current_user, logout_user, login_required
 from flask_mail import Message
+from functools import wraps
 
 # Create a blueprint instead of importing app directly
 bp = Blueprint('main', __name__)
 
 # Import app after creating blueprint to avoid circular import
 from waste_manage import app
+
+def admin_required(f):
+    @wraps(f)
+    def decorated_function(*args, **kwargs):
+        if current_user.role != 'admin':
+            abort(403)
+        return f(*args, **kwargs)
+    return decorated_function
+
+@app.route("/admin")
+@login_required
+@admin_required
+def admin_dashboard():
+    users = User.query.all()
+    posts = Post.query.all()
+    return render_template('admin_dashboard.html', users=users, posts=posts)
+
+@app.route("/admin/user/<int:user_id>/delete", methods=['POST'])
+@login_required
+@admin_required
+def delete_user(user_id):
+    user = User.query.get_or_404(user_id)
+    db.session.delete(user)
+    db.session.commit()
+    flash('The user has been deleted!', 'success')
+    return redirect(url_for('admin_dashboard'))
+
+@app.route("/admin/post/<int:post_id>/delete", methods=['POST'])
+@login_required
+@admin_required
+def delete_post_route(post_id):  # Changed function name to avoid conflict
+    post = Post.query.get_or_404(post_id)
+    if post:
+        db.session.delete(post)
+        db.session.commit()
+        flash('The post has been deleted!', 'success')
+    return redirect(url_for('admin_dashboard'))
+
+
 
 @app.route("/")
 @app.route("/home")
