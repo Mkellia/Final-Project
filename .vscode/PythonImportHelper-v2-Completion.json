@@ -1,0 +1,897 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "current_app",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "Blueprint",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "abort",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "unittest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "unittest",
+        "description": "unittest",
+        "detail": "unittest",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "UserMixin",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "FlaskForm",
+        "importPath": "flask_wtf",
+        "description": "flask_wtf",
+        "isExtraImport": true,
+        "detail": "flask_wtf",
+        "documentation": {}
+    },
+    {
+        "label": "FileField",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {}
+    },
+    {
+        "label": "FileAllowed",
+        "importPath": "flask_wtf.file",
+        "description": "flask_wtf.file",
+        "isExtraImport": true,
+        "detail": "flask_wtf.file",
+        "documentation": {}
+    },
+    {
+        "label": "StringField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "PasswordField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SubmitField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "TextAreaField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "SelectField",
+        "importPath": "wtforms",
+        "description": "wtforms",
+        "isExtraImport": true,
+        "detail": "wtforms",
+        "documentation": {}
+    },
+    {
+        "label": "DataRequired",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Length",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "Email",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "EqualTo",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "wtforms.validators",
+        "description": "wtforms.validators",
+        "isExtraImport": true,
+        "detail": "wtforms.validators",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "waste_manage.models",
+        "description": "waste_manage.models",
+        "isExtraImport": true,
+        "detail": "waste_manage.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "waste_manage.models",
+        "description": "waste_manage.models",
+        "isExtraImport": true,
+        "detail": "waste_manage.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "importPath": "waste_manage.models",
+        "description": "waste_manage.models",
+        "isExtraImport": true,
+        "detail": "waste_manage.models",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "TimedSerializer",
+        "importPath": "itsdangerous",
+        "description": "itsdangerous",
+        "isExtraImport": true,
+        "detail": "itsdangerous",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "bcrypt",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "mail",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "waste_manage",
+        "description": "waste_manage",
+        "isExtraImport": true,
+        "detail": "waste_manage",
+        "documentation": {}
+    },
+    {
+        "label": "secrets",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "secrets",
+        "description": "secrets",
+        "detail": "secrets",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "isExtraImport": true,
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "isExtraImport": true,
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateAccountForm",
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "isExtraImport": true,
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PostForm",
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "isExtraImport": true,
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RequestResetForm",
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "isExtraImport": true,
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordForm",
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "isExtraImport": true,
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "flask_mail",
+        "description": "flask_mail",
+        "isExtraImport": true,
+        "detail": "flask_mail",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_engine_url",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_engine_url():\n    try:\n        return get_engine().url.render_as_string(hide_password=False).replace(\n            '%', '%%')\n    except AttributeError:\n        return str(get_engine().url).replace('%', '%%')\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "get_metadata",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    # this callback is used to prevent an auto-migration from being generated\n    # when there are no changes to the schema\n    # reference: http://alembic.zzzcomputing.com/en/latest/cookbook.html\n    def process_revision_directives(context, revision, directives):\n        if getattr(config.cmd_opts, 'autogenerate', False):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\nlogger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "logger = logging.getLogger('alembic.env')\ndef get_engine():\n    try:\n        # this works with Flask-SQLAlchemy<3 and Alchemical\n        return current_app.extensions['migrate'].db.get_engine()\n    except (TypeError, AttributeError):\n        # this works with Flask-SQLAlchemy>=3\n        return current_app.extensions['migrate'].db.engine\ndef get_engine_url():\n    try:",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_db",
+        "kind": 5,
+        "importPath": "migrations.env",
+        "description": "migrations.env",
+        "peekOfCode": "target_db = current_app.extensions['migrate'].db\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef get_metadata():\n    if hasattr(target_db, 'metadatas'):\n        return target_db.metadatas[None]\n    return target_db.metadata\ndef run_migrations_offline():",
+        "detail": "migrations.env",
+        "documentation": {}
+    },
+    {
+        "label": "BasicTests",
+        "kind": 6,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "class BasicTests(unittest.TestCase):\n    def setUp(self):\n        app.config['TESTING'] = True\n        app.config['DEBUG'] = False\n        self.app = app.test_client()\n    def tearDown(self):\n        pass\n    def test_index(self):\n        response = self.app.get('/', follow_redirects=True)\n        response_data_str = response.data.decode('utf-8')",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "parent_dir",
+        "kind": 5,
+        "importPath": "tests.test_app",
+        "description": "tests.test_app",
+        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))\n# Add the parent directory to the beginning of the sys.path list\nsys.path.insert(0, parent_dir)\n# Now import app from app.py\nfrom app import app\nclass BasicTests(unittest.TestCase):\n    def setUp(self):\n        app.config['TESTING'] = True\n        app.config['DEBUG'] = False\n        self.app = app.test_client()",
+        "detail": "tests.test_app",
+        "documentation": {}
+    },
+    {
+        "label": "TestConfig",
+        "kind": 6,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "class TestConfig(unittest.TestCase):\n    def test_secret_key(self):\n        config = Config()\n        self.assertEqual(config.SECRET_KEY, '5791628bb0b13ce0c676dfde280ba245')\n    def test_database_uri(self):\n        config = Config()\n        self.assertEqual(config.SQLALCHEMY_DATABASE_URI, 'sqlite:///site.db')\n    def test_track_modifications(self):\n        config = Config()\n        self.assertFalse(config.SQLALCHEMY_TRACK_MODIFICATIONS)",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "parent_dir",
+        "kind": 5,
+        "importPath": "tests.test_config",
+        "description": "tests.test_config",
+        "peekOfCode": "parent_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))\n# Add the parent directory to the beginning of the sys.path list\nsys.path.insert(0, parent_dir)\nfrom config import Config  \nclass TestConfig(unittest.TestCase):\n    def test_secret_key(self):\n        config = Config()\n        self.assertEqual(config.SECRET_KEY, '5791628bb0b13ce0c676dfde280ba245')\n    def test_database_uri(self):\n        config = Config()",
+        "detail": "tests.test_config",
+        "documentation": {}
+    },
+    {
+        "label": "role_required",
+        "kind": 2,
+        "importPath": "waste_manage.decorators",
+        "description": "waste_manage.decorators",
+        "peekOfCode": "def role_required(role):\n    def decorator(f):\n        @wraps(f)\n        def decorated_function(*args, **kwargs):\n            if not current_user.is_authenticated or current_user.role != role:\n                abort(403)\n            return f(*args, **kwargs)\n        return decorated_function\n    return decorator",
+        "detail": "waste_manage.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "RegistrationForm",
+        "kind": 6,
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "peekOfCode": "class RegistrationForm(FlaskForm):\n    username = StringField('Username', validators=[DataRequired(), Length(min=2, max=20)])\n    email = StringField('Email', validators=[DataRequired(), Email()])\n    password = PasswordField('Password', validators=[DataRequired()])\n    confirm_password = PasswordField('Confirm Password', validators=[DataRequired(), EqualTo('password')])\n    role = SelectField('Role', choices=[('household', 'Household User'), ('waste_management', 'Waste Management User')],\n                       validators=[DataRequired()])\n    submit = SubmitField('Sign Up')\n    def validate_username(self, username):\n        user = User.query.filter_by(username=username.data).first()",
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "peekOfCode": "class LoginForm(FlaskForm):\n    email = StringField('Email',\n                        validators=[DataRequired(), Email()])\n    password = PasswordField('Password', validators=[DataRequired()])\n    remember = BooleanField('Remember Me')\n    role = SelectField('Role', choices=[('household', 'Household User'), ('waste_management', 'Waste Management User')])\n    submit = SubmitField('Login')\nclass UpdateAccountForm(FlaskForm):\n    username = StringField('Username',\n                           validators=[DataRequired(), Length(min=2, max=20)])",
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateAccountForm",
+        "kind": 6,
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "peekOfCode": "class UpdateAccountForm(FlaskForm):\n    username = StringField('Username',\n                           validators=[DataRequired(), Length(min=2, max=20)])\n    email = StringField('Email',\n                        validators=[DataRequired(), Email()])\n    picture = FileField('Update Profile Picture', validators=[FileAllowed(['jpg', 'png'])])\n    submit = SubmitField('Update')\n    def validate_username(self, username):\n        if username.data != current_user.username:\n            user = User.query.filter_by(username=username.data).first()",
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PostForm",
+        "kind": 6,
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "peekOfCode": "class PostForm(FlaskForm):\n    title = StringField('Name', validators=[DataRequired()])\n    content = TextAreaField('Type of Waste', validators=[DataRequired()])\n    location = StringField('Location')\n    time = StringField('Time')\n    date = StringField('Date')\n    district = SelectField('District', choices=[('gasabo', 'Gasabo'), ('nyarugenge', 'Nyarugenge'), ('kicukiro', 'Kicukiro')], validators=[DataRequired()])\n    submit = SubmitField('Post')\nclass RequestResetForm(FlaskForm):\n    email = StringField('Email',",
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RequestResetForm",
+        "kind": 6,
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "peekOfCode": "class RequestResetForm(FlaskForm):\n    email = StringField('Email',\n                        validators=[DataRequired(), Email()])\n    submit = SubmitField('Request Password Reset')\n    def validate_email(self, email):\n        user = User.query.filter_by(email=email.data).first()\n        if user is None:\n            raise ValidationError('There is no account with that email. You must register first.')\nclass ResetPasswordForm(FlaskForm):\n    password = PasswordField('Password', validators=[DataRequired()])",
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ResetPasswordForm",
+        "kind": 6,
+        "importPath": "waste_manage.forms",
+        "description": "waste_manage.forms",
+        "peekOfCode": "class ResetPasswordForm(FlaskForm):\n    password = PasswordField('Password', validators=[DataRequired()])\n    confirm_password = PasswordField('Confirm Password',\n                                     validators=[DataRequired(), EqualTo('password')])\n    submit = SubmitField('Reset Password')",
+        "detail": "waste_manage.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "waste_manage.models",
+        "description": "waste_manage.models",
+        "peekOfCode": "class User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    image_file = db.Column(db.String(20), nullable=False, default='default.jpg')\n    password = db.Column(db.String(60), nullable=False)\n    posts = db.relationship('Post', backref='author', lazy=True)\n    role = db.Column(db.String(20), nullable=False, default='user')  # Ensure this line is correctly defined\n    def get_reset_token(self, expires_sec=1800):\n        s = Serializer(app.config['SECRET_KEY'], expires_sec)",
+        "detail": "waste_manage.models",
+        "documentation": {}
+    },
+    {
+        "label": "Post",
+        "kind": 6,
+        "importPath": "waste_manage.models",
+        "description": "waste_manage.models",
+        "peekOfCode": "class Post(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    title = db.Column(db.String(100), nullable=False)\n    date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)\n    content = db.Column(db.Text, nullable=False)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    location = db.Column(db.String(100), nullable=False)\n    time = db.Column(db.String(100), nullable=False)\n    date = db.Column(db.String(100), nullable=False)\n    district = db.Column(db.String(100), nullable=False)",
+        "detail": "waste_manage.models",
+        "documentation": {}
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "waste_manage.models",
+        "description": "waste_manage.models",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\nclass User(db.Model, UserMixin):\n    id = db.Column(db.Integer, primary_key=True)\n    username = db.Column(db.String(20), unique=True, nullable=False)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    image_file = db.Column(db.String(20), nullable=False, default='default.jpg')\n    password = db.Column(db.String(60), nullable=False)\n    posts = db.relationship('Post', backref='author', lazy=True)\n    role = db.Column(db.String(20), nullable=False, default='user')  # Ensure this line is correctly defined",
+        "detail": "waste_manage.models",
+        "documentation": {}
+    },
+    {
+        "label": "home",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def home():\n    page = request.args.get('page', 1, type=int)\n    posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)\n    return render_template('home.html', posts=posts)\n@app.route(\"/about\")\ndef about():\n    return render_template('about.html', title='About')\n@app.route(\"/household\")\ndef household_dashboard():\n    return render_template('household_dashboard.html', title='Household Dashboard')",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "about",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def about():\n    return render_template('about.html', title='About')\n@app.route(\"/household\")\ndef household_dashboard():\n    return render_template('household_dashboard.html', title='Household Dashboard')\n@app.route(\"/waste_management\")\ndef waste_management_dashboard():\n    return render_template('waste_management_dashboard.html', title='Waste Management Dashboard')\n@app.route(\"/register\", methods=[\"GET\", \"POST\"])\ndef register():",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "household_dashboard",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def household_dashboard():\n    return render_template('household_dashboard.html', title='Household Dashboard')\n@app.route(\"/waste_management\")\ndef waste_management_dashboard():\n    return render_template('waste_management_dashboard.html', title='Waste Management Dashboard')\n@app.route(\"/register\", methods=[\"GET\", \"POST\"])\ndef register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "waste_management_dashboard",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def waste_management_dashboard():\n    return render_template('waste_management_dashboard.html', title='Waste Management Dashboard')\n@app.route(\"/register\", methods=[\"GET\", \"POST\"])\ndef register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n        user = User(username=form.username.data, email=form.email.data, password=hashed_password, role=form.role.data)\n        db.session.add(user)\n        db.session.commit()",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def register():\n    form = RegistrationForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')\n        user = User(username=form.username.data, email=form.email.data, password=hashed_password, role=form.role.data)\n        db.session.add(user)\n        db.session.commit()\n        flash('Your account has been created! You are now able to log in.', 'success')\n        return redirect(url_for('login'))\n    return render_template('register.html', title='Register', form=form)",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def login():\n    if current_user.is_authenticated:\n        return redirect(url_for('home'))\n    form = LoginForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        if user and bcrypt.check_password_hash(user.password, form.password.data):\n            login_user(user, remember=form.remember.data)\n            next_page = request.args.get('next')\n            if user.role == 'waste_management':",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def logout():\n    logout_user()\n    return redirect(url_for('home'))\ndef save_picture(form_picture):\n    random_hex = secrets.token_hex(8)\n    _, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = random_hex + f_ext\n    picture_path = os.path.join(app.root_path, 'static/profile_pics', picture_fn)\n    output_size = (125, 125)\n    i = Image.open(form_picture)",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "save_picture",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def save_picture(form_picture):\n    random_hex = secrets.token_hex(8)\n    _, f_ext = os.path.splitext(form_picture.filename)\n    picture_fn = random_hex + f_ext\n    picture_path = os.path.join(app.root_path, 'static/profile_pics', picture_fn)\n    output_size = (125, 125)\n    i = Image.open(form_picture)\n    i.thumbnail(output_size)\n    i.save(picture_path)\n    return picture_fn",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def account():\n    form = UpdateAccountForm()\n    if form.validate_on_submit():\n        if form.picture.data:\n            picture_file = save_picture(form.picture.data)\n            current_user.image_file = picture_file\n        current_user.username = form.username.data\n        current_user.email = form.email.data\n        db.session.commit()\n        flash('Your account has been updated!', 'success')",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "new_post",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def new_post():\n    form = PostForm()\n    if form.validate_on_submit():\n        post = Post(title=form.title.data, content=form.content.data, location=form.location.data, time=form.time.data, date=form.date.data, district=form.district.data, author=current_user)\n        db.session.add(post)\n        db.session.commit()\n        flash('Your post has been created!', 'success')\n        return redirect(url_for('home'))\n    return render_template('create_post.html', title='Booking Form', form=form, legend='Booking Form')\n@app.route(\"/post/<int:post_id>\")",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def post(post_id):\n    post = Post.query.get_or_404(post_id)\n    return render_template('post.html', title=post.title, post=post)\n@app.route(\"/post/<int:post_id>/update\", methods=['GET', 'POST'])\ndef update_post(post_id):\n    post = Post.query.get_or_404(post_id)\n    if post.author != current_user:\n        abort(403)\n    form = PostForm()\n    if form.validate_on_submit():",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "update_post",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def update_post(post_id):\n    post = Post.query.get_or_404(post_id)\n    if post.author != current_user:\n        abort(403)\n    form = PostForm()\n    if form.validate_on_submit():\n        post.title = form.title.data\n        post.content = form.content.data\n        post.location = form.location.data\n        post.time = form.time.data",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "delete_post",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def delete_post(post_id):\n    post = Post.query.get_or_404(post_id)\n    if post.author != current_user:\n        abort(403)\n    db.session.delete(post)\n    db.session.commit()\n    flash('Your post has been deleted!', 'success')\n    return redirect(url_for('home'))\n@app.route(\"/user/<string:username>\")\ndef user_posts(username):",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "user_posts",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def user_posts(username):\n    page = request.args.get('page', 1, type=int)\n    user = User.query.filter_by(username=username).first_or_404()\n    posts = Post.query.filter_by(author=user).order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)\n    return render_template('user_posts.html', posts=posts, user=user)\nfrom flask import render_template\n@app.route(\"/district/<district_name>\")\ndef district_posts(district_name):\n    page = request.args.get('page', 1, type=int)\n    posts = Post.query.filter_by(district=district_name).order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "district_posts",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def district_posts(district_name):\n    page = request.args.get('page', 1, type=int)\n    posts = Post.query.filter_by(district=district_name).order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)\n    print(posts)  # Print pagination object\n    print(posts.items)\n    return render_template('district_posts.html', posts=posts, district_name=district_name)\ndef send_reset_email(user):\n    token = user.get_reset_token()\n    msg = Message('Password Reset Request',\n                  sender='noreply@demo.com',",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "send_reset_email",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def send_reset_email(user):\n    token = user.get_reset_token()\n    msg = Message('Password Reset Request',\n                  sender='noreply@demo.com',\n                  recipients=[user.email])\n    msg.body = f'''To reset your password, visit the following link:\n{url_for('reset_token', token=token, _external=True)}\nIf you did not make this request then simply ignore this email and no changes will be made.\n'''\n    mail.send(msg)",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "reset_request",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def reset_request():\n    if current_user.is_authenticated:\n        return redirect(url_for('home'))\n    form = RequestResetForm()\n    if form.validate_on_submit():\n        user = User.query.filter_by(email=form.email.data).first()\n        send_reset_email(user)\n        flash('An email has been sent with instructions to reset your password.', 'info')\n        return redirect(url_for('login'))\n    return render_template('reset_request.html', title='Reset Password', form=form)",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "reset_token",
+        "kind": 2,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "def reset_token(token):\n    if current_user.is_authenticated:\n        return redirect(url_for('home'))\n    user = User.verify_reset_token(token)\n    if user is None:\n        flash('That is an invalid or expired token', 'warning')\n        return redirect(url_for('reset_request'))\n    form = ResetPasswordForm()\n    if form.validate_on_submit():\n        hashed_password = bcrypt.generate_password_hash(form.password.data).decode('utf-8')",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "bp",
+        "kind": 5,
+        "importPath": "waste_manage.routes",
+        "description": "waste_manage.routes",
+        "peekOfCode": "bp = Blueprint('main', __name__)\n# Import app after creating blueprint to avoid circular import\nfrom waste_manage import app\n@app.route(\"/\")\n@app.route(\"/home\")\ndef home():\n    page = request.args.get('page', 1, type=int)\n    posts = Post.query.order_by(Post.date_posted.desc()).paginate(page=page, per_page=5)\n    return render_template('home.html', posts=posts)\n@app.route(\"/about\")",
+        "detail": "waste_manage.routes",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "kind": 6,
+        "importPath": "config",
+        "description": "config",
+        "peekOfCode": "class Config:\n    SECRET_KEY = os.environ.get('SECRET_KEY') or '5791628bb0b13ce0c676dfde280ba245'\n    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or 'sqlite:///site.db'\n    SQLALCHEMY_TRACK_MODIFICATIONS = False",
+        "detail": "config",
+        "documentation": {}
+    }
+]
