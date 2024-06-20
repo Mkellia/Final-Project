@@ -1,19 +1,27 @@
-# Core Flask Dependencies
+alembic==1.13.1
+BareNecessities==0.2.8
+bcrypt==4.1.3
+blinker==1.8.2
+click==8.1.7
+dnspython==2.6.1
+email_validator==2.1.2
 Flask==2.0.1
-Flask-SQLAlchemy==2.5.1
+Flask-Bcrypt==1.0.1
 Flask-Login==0.5.0
-Flask-WTF==0.14.3
+Flask-Mail==0.10.0
 Flask-Migrate==3.0.1
-
-# Database and ORM
-SQLAlchemy==1.4.22
-
-# Templating and Routing
+Flask-SQLAlchemy==2.5.1
+Flask-WTF==0.14.3
+greenlet==3.0.3
+idna==3.7
+itsdangerous==2.0.1
 Jinja2==3.0.1
+Mail==2.1.0
+Mako==1.3.5
+MarkupSafe==2.1.5
+pillow==10.3.0
+python-dotenv==0.17.1
+SQLAlchemy==1.4.22
+typing_extensions==4.12.2
 Werkzeug==2.0.1
-
-# Additional Libraries
-email-validator  # Example of a library not related to Flask but used in the project
-PIL              # This should be Pillow for Python Imaging Library
-bcrypt           # For password hashing
-
+WTForms==3.1.2
